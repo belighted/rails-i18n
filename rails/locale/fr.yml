@@ -144,6 +144,7 @@ fr:
       format:
         delimiter: ! ' '
         format: ! '%n %u'
+        negative_format: ! '-%n %u'
         precision: 2
         separator: ! ','
         significant: false
@@ -158,6 +159,7 @@ fr:
     human:
       decimal_units:
         format: ! '%n %u'
+        negative_format: ! '-%n %u'
         units:
           billion: milliard
           million: million
@@ -172,6 +174,7 @@ fr:
         strip_insignificant_zeros: true
       storage_units:
         format: ! '%n %u'
+        negative_format: ! '-%n %u'
         units:
           byte:
             one: octet
